@@ -1,6 +1,14 @@
-.general-style{
+:root {
+    --primary-background-color: #ECECEC;
+    --accent-color: #2196F3;
+}
+
+
+body {
     width: 1600px ;
 }
+
+
 
 .head-document {
     display: flex;
@@ -16,8 +24,8 @@
 }
 
 .logo-blu{
-    color: #2196F3;
-    font-family: 'Raleway', sans-serif;
+    color: var(--accent-color);
+    font-family: 'Raleway ', sans-serif;
 }
 
 .header-list{

@@ -12,7 +12,12 @@
     margin: 94px auto 50px auto;
 }
 
-.portfolio-list-buttons:hover{
+.portfolio-listb .button-list + .button-list {
+    margin-left: 25px;
+}
+
+.portfolio-list-buttons:hover,
+.portfolio-list-buttons:focus {
     color: #fff;
     background-color: #2196F3;
 }
